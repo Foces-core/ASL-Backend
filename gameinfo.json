@@ -1,0 +1,31 @@
+{
+    "questions":[
+        {
+            "id": 0,
+            "type": "IMG2WRD",
+            "question":"https://images.ctfassets.net/vz6nkkbc6q75/1Mu1ljM84WXagx5muIxmyy/e8a5ff4bccbd39d63bf12b2892aeafc7/Hello_2BSmall_2B1.gif?w=&q=80&fm=webp",
+            "options":["hello","thank you","welcome","how"],
+            "answer":0,
+            "xpOnSuccess":100
+
+        },
+        {
+            "id": 1,
+            "type": "IMG2WRD",
+            "question":"https://images.ctfassets.net/vz6nkkbc6q75/2wHIqJmIziBv5PODZThVlu/9c46b5c9fe7666aa767d2d48c6bf8095/Thank_2BYou_2BSmaller.gif?w=&q=80&fm=webp",
+            "options":["hello","thank you","welcome","how"],
+            "answer":1,
+            "xpOnSuccess":100
+
+        },
+        {
+            "id": 2,
+            "type": "WRD2IMG",
+            "question":"Morning",
+            "options":["https://t.ly/bTx_9","https://t.ly/q3OHz","https://t.ly/w7gmO","https://t.ly/u6tj3"],
+            "answer":1,
+            "xpOnSuccess":100
+
+        }
+    ]
+}
