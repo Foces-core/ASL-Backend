@@ -16,7 +16,7 @@ The question response has this shape:
 {
   "question": null,
   "options": null,
-"optionCount": null,
+  "optionCount": null,
   "xpOnSuccess": null
 }
 ```
@@ -34,6 +34,16 @@ flask --app app run --debug
 ```
 
 The server listens on http://127.0.0.1:5000.
+
+## Run checks
+
+Install the development tools, then run the same lint and unit checks as CI:
+
+```bash
+python -m pip install -r requirements-dev.txt
+ruff check app tests
+python -m unittest discover -s tests -v
+```
 
 ## Project structure
 
